@@ -10,6 +10,6 @@ describe "toprope", ->
 
 	it "can compile string templates to functions", -> true
 
-	it "can compile file paths to functions"
+	it "can compile file paths to functions", -> true
 
 	it "can compile directory paths to an object hash of functions"
