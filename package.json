@@ -1,0 +1,31 @@
+{
+  "name": "toprope",
+  "version": "0.0.0",
+  "description": "A mustache template compiler and render helper for express",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgable/toprope.git"
+  },
+  "keywords": [
+    "handlebars",
+    "compile",
+    "templates",
+    "hogan"
+  ],
+  "author": "Jacob Gable",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "hogan.js": "~2.0.0"
+  },
+  "devDependencies": {
+    "should": "~1.2.1"
+  }
+}
