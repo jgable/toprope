@@ -1,6 +1,6 @@
 {
   "name": "toprope",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A mustache template compiler and render helper for express",
   "main": "index.js",
   "directories": {
@@ -24,8 +24,10 @@
   "dependencies": {
     "coffee-script": "~1.4.0",
     "hogan.js": "~2.0.0"
+    
   },
   "devDependencies": {
-    "should": "~1.2.1"
+    "should": "~1.2.1",
+    "mocha": "~1.7.0"
   }
 }

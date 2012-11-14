@@ -4,13 +4,17 @@ hogan = require "hogan.js"
 
 class TemplateCompiler
 	# Builds a new TemplateCompiler with the specified compiler function or uses hogan.compile
-	constructor: (@compiler) ->
+	constructor: (@compiler, @asString) ->
+		@asString = !!@asString
 		@compiler ||= (args...) ->
 			hogan.compile args...
 
 	# Returns a function that can be called with data to return the template result.
 	compileString: (templateStr) ->
-		@compiler templateStr
+		if @asString
+			@compiler templateStr, {@asString}
+		else 
+			@compiler templateStr
 
 	# Calls the callback with an optional error and the compiled template result as the second parameter
 	compileFile: (filePath, done) ->
