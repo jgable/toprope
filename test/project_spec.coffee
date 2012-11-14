@@ -1,4 +1,4 @@
-
+# The roadmap for the TopRope project
 
 describe "toprope", ->
 
@@ -12,4 +12,4 @@ describe "toprope", ->
 
 	it "can compile file paths to functions", -> true
 
-	it "can compile directory paths to an object hash of functions"
+	it "can compile directory paths to an object hash of functions", -> true
