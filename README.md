@@ -33,8 +33,8 @@ This will output a `<script>` tag containing the `APPLICATION_TEMPLATES` variabl
 
 ### Rendering your template
 
-   var hoganed = new Hogan.Template(APPLICATION_TEMPLATES["someTemplate.hbs"]),
-       html = hoganed.render({ data: "something" });
+    var hoganed = new Hogan.Template(APPLICATION_TEMPLATES["someTemplate.hbs"]),
+        html = hoganed.render({ data: "something" });
 
 First we have to 'Hoganize' the template then call render on it.
 
