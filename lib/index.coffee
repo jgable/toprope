@@ -6,7 +6,7 @@ init = (templatesRoot, done) ->
 	renderer.renderScriptTag (err, scriptTag) ->
 		throw err if err
 
-		globals.templates = -> scriptTag
+		global.templates = -> scriptTag
 
 		done null, scriptTag
 

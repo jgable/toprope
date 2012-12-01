@@ -1,6 +1,6 @@
 {
   "name": "toprope",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A mustache template compiler and render helper for express",
   "main": "index.js",
   "directories": {
